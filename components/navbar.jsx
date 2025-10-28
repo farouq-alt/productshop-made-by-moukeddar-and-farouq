@@ -8,12 +8,10 @@ export default function Navbar() {
 
   return (
     <nav className="navbar navbar-dark bg-dark px-4 d-flex justify-content-between align-items-center">
-      {/* Left side: logo */}
       <Link to="/" className="navbar-brand mb-0 h1 text-white">
         🛍️ E-Shop
       </Link>
 
-      {/* Right side: links */}
       <div className="d-flex gap-3">
         <Link
           to="/"
