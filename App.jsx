@@ -1,5 +1,5 @@
-import ListProduct from "./Components/G-Prods/productshop/components/productlist";
-import { CartProvider } from "./Components/G-Prods/productshop/context/CartContext";
+import ListProduct from "./components/productlist";
+import { CartProvider } from "./context/CartContext";
 function App() {
   return (
     <div>
