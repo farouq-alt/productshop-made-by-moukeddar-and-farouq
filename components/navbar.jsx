@@ -10,10 +10,14 @@ export default function Navbar() {
       <Link to="/" className="text-white text-decoration-none">
         <h3>🛒 E-Shop</h3>
       </Link>
-
-      <Link to="/cart" className="text-white text-decoration-none">
-        Panier : {state.cart.length} produits
-      </Link>
+      <div>
+        <Link to="/" className="text-white text-decoration-none">
+          home
+        </Link>
+        <Link to="/cart" className="text-white text-decoration-none">
+          Panier : {state.cart.length} produits
+        </Link>
+      </div>
     </nav>
   );
 }

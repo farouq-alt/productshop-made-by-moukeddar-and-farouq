@@ -1,8 +1,8 @@
-import ListProduct from "./Components/G-Prods/productshop/components/productlist";
-import { CartProvider } from "./Components/G-Prods/productshop/context/CartContext";
+import ListProduct from "./components/productlist";
+import { CartProvider } from "./context/CartContext";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Cart from "./Components/G-Prods/productshop/components/cart";
-import Navbar from "./Components/G-Prods/productshop/components/navbar";
+import Cart from "./components/cart";
+import Navbar from "./components/navbar";
 function App() {
   return (
     <CartProvider>
