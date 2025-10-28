@@ -115,6 +115,3 @@ src/
 <p>Ensures the quantity never drops below <strong>1</strong> when decreasing.</p>
 
 <hr>
-
-<h2>❤️ Author</h2>
-<p>Built with <strong>React Hooks</strong>, <strong>Vite</strong>, and <strong>Bootstrap</strong>.<br>Made with ❤️ for learning and experimentation.</p>
